@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  DiceApp
-//
-//  Created by Zhangali Pernebayev on 04.04.2021.
-//
-
 import UIKit
 
 @main

@@ -1,15 +1,8 @@
-//
-//  ViewController.swift
-//  DiceApp
-//
-//  Created by Zhangali Pernebayev on 04.04.2021.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
-    //Properties
+    
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -26,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
         
         diceImageView1.image = UIImage(named: "dice-3")
         diceImageView2.image = UIImage(named: "dice-2")
@@ -37,7 +30,7 @@ class ViewController: UIViewController {
     }
 
  
-     // tap handler
+     
     @IBAction func throwButtonTapped(_ sender: Any) {
         diceImageView1.image = images[randomImageIndex()]
         diceImageView2.image = images[randomImageIndex()]
